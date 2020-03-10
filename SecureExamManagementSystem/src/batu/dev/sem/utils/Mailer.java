@@ -13,9 +13,11 @@ import javax.mail.internet.MimeMessage;
 public class Mailer 
 {
 	
-	
+	//ASHISH
 	public static boolean sendMail(String pToCSV, String pCcCSV, String pSubject, String pMailbody)
 	{
+		
+		
 		final String MailUser = Util.getProperty("Config", "mail.smtp.user");
 		final String MailUserEmail = Util.getProperty("Config", "mail.smtp.user.from");
 		final String MailPass = Util.getProperty("Config", "mail.smtp.pass");
